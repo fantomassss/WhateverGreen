@@ -568,6 +568,10 @@ static constexpr Model dev68b8[] {
 	{Model::DetectDef, 0x0000, 0x0000, 0x0000, "ATI Radeon HD 5770"}
 };
 
+static constexpr Model dev68ba[] {
+	{Model::DetectDef, 0x0000, 0x0000, 0x0000, "ATI Radeon HD 6770"}
+};
+
 static constexpr Model dev68c0[] {
 	{Model::DetectSub, 0x103c, 0x1521, 0x0000, "ATI FirePro M5800"},
 	{Model::DetectSub, 0x17aa, 0x3978, 0x0000, "AMD Radeon HD 6570M"},
@@ -738,6 +742,7 @@ static constexpr DevicePair devices[] {
 	{0x68b0, dev68b0, arrsize(dev68b0)},
 	{0x68b1, dev68b1, arrsize(dev68b1)},
 	{0x68b8, dev68b8, arrsize(dev68b8)},
+	{0x68ba, dev68ba, arrsize(dev68ba)},
 	{0x68c0, dev68c0, arrsize(dev68c0)},
 	{0x68c1, dev68c1, arrsize(dev68c1)},
 	{0x68d8, dev68d8, arrsize(dev68d8)},
